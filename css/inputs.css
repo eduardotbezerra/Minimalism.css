@@ -1,0 +1,32 @@
+@import "colors.css";
+@import "borders.css";
+
+input {
+    font-size:12pt;
+    text-align: center;
+    border-radius: var(--bordered);
+    outline: none;
+    -webkit-border-radius: var(--bordered);
+    -moz-border-radius: var(--bordered);
+    -ms-border-radius: var(--bordered);
+    -o-border-radius: var(--bordered);
+}
+.input-success{
+    border-color: var(--border-success)
+}
+.input-danger{
+    border-color: var(--border-danger)
+}
+.input-warning{
+    border-color: var(--border-warning)
+}
+.input-info{
+    border-color: var(--border-info)
+}
+
+.input-light{
+    border-color: var(--border-light)
+}
+.input-dark{
+    border-color: var(--border-dark)
+}

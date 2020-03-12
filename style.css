@@ -1,0 +1,38 @@
+* {
+    margin: 2;
+    padding: 0;
+}
+
+button {
+    margin-top: 1em;
+    margin-right: 1vw;
+}
+
+section {
+    width: 100%;
+    margin-top: 2em;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 30vw;
+}
+
+input {
+    margin-top: 1em;
+}
+
+.bar {
+    margin-top: 1em;
+}
+
+h3 {
+    margin-top: 1em;
+}
+
+* {
+    font-size: 20pt;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}

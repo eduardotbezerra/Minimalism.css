@@ -1,0 +1,81 @@
+@import "colors";
+@import "borders";
+
+
+.badge {
+    font-size: 15pt;
+    cursor: pointer;
+    background: black;
+    color: white;
+    text-align: center;
+    height: auto;
+    width: auto;
+    border-radius: 50%;
+    box-shadow: 0 0 10px red;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.badge-success {
+    background-color: var(--success);
+    box-shadow: 0 0 10px var(--border-success);
+}
+
+.badge-danger {
+    background-color: var(--danger);
+    box-shadow: 0 0 10px var(--border-danger);
+}
+
+.badge-warning {
+    background-color: var(--warning);
+    box-shadow: 0 0 10px var(--border-warning);
+}
+
+.badge-info {
+    background-color: var(--info);
+    box-shadow: 0 0 10px var(--border-info);
+}
+
+.badge-light {
+    background-color: var(--light);
+    box-shadow: 0 0 10px var(--border-light);
+}
+
+.badge-dark {
+    background-color: var(--dark);
+    box-shadow: 0 0 10px var(--border-shadow);
+}
+
+/* badges hover*/
+
+.badge-success:hover {
+    background-color: var(--success-hover);
+    box-shadow: 0 0 10px var(--success-hover);
+}
+
+.badge-danger:hover {
+    background-color: var(--danger-hover);
+    box-shadow: 0 0 10px var(--danger-hover);
+}
+
+.badge-warning:hover {
+    background-color: var(--warning-hover);
+    box-shadow: 0 0 10px var(--warning-hover);
+}
+
+.badge-info:hover {
+    background-color: var(--light-hover);
+    box-shadow: 0 0 10px var(--info-hover);
+}
+
+.badge-light:hover {
+    background-color: var(--light-hover);
+    box-shadow: 0 0 10px var(--light-hover);
+}
+
+.badge-dark:hover {
+    background-color: var(--dark-hover);
+    box-shadow: 0 0 10px var(--dark-hover);
+}

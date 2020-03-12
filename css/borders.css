@@ -1,0 +1,122 @@
+@import "colors.css";
+
+:root {
+  /*widths border*/
+  --bordered: 5px;
+  --bordered-small: 3px;
+  --bordered-large: 8px;
+  --bordered-xxlarge: 12px;
+  --bordered-full: 100%;
+  --no-border: 0;
+  /*forms*/
+  --circle: 50%;
+  /*color borders*/
+  --border-primary: var(--primary);
+  --border-secondary: var(--secondary);
+  --border-success: var(--success);
+  --border-danger: var(--danger);
+  --border-warning: var(--warning);
+  --border-info: var(--info);
+  --border-light: var(--light);
+  --border-dark: var(--dark);
+}
+
+/*widths border*/
+.no-border {
+  border-radius: var(--no-border);
+  -webkit-border-radius: var(--no-border);
+  -moz-border-radius: var(--no-border);
+  -ms-border-radius: var(--no-border);
+  -o-border-radius: var(--no-border);
+}
+
+.bordered {
+  border-radius: var(--bordered);
+  -webkit-border-radius: var(--bordered);
+  -moz-border-radius: var(--bordered);
+  -ms-border-radius: var(--bordered);
+  -o-border-radius: var(--bordered);
+}
+
+.bordered-small {
+  border-radius: var(--bordered-small);
+  -webkit-border-radius: var(--bordered-small);
+  -moz-border-radius: var(--bordered-small);
+  -ms-border-radius: var(--bordered-small);
+  -o-border-radius: var(--bordered-small);
+}
+
+.bordered-large {
+  border-radius: var(--bordered-large);
+  -webkit-border-radius: var(--bordered-large);
+  -moz-border-radius: var(--bordered-large);
+  -ms-border-radius: var(--bordered-large);
+  -o-border-radius: var(--bordered-large);
+}
+
+.bordered-xxlarge {
+  border-radius: var(--bordered-xxlarge);
+  -webkit-border-radius: var(--bordered-xxlarge);
+  -moz-border-radius: var(--bordered-xxlarge);
+  -ms-border-radius: var(--bordered-xxlarge);
+  -o-border-radius: var(--bordered-xxlarge);
+}
+
+/*forms*/
+.circle {
+  border-radius: var(--circle);
+  -webkit-border-radius: var(--circle);
+  -moz-border-radius: var(--circle);
+  -ms-border-radius: var(--circle);
+  -o-border-radius: var(--circle);
+}
+
+.border-success {
+  border-color: var(--border-success);
+}
+
+.border-danger {
+  border-color: var(--border-success);
+}
+
+.border-warning {
+  border-color: var(--border-success);
+}
+
+.border-info {
+  border-color: var(--border-info);
+}
+
+.border-light {
+  border-color: var(--border-light);
+}
+
+.border-dark {
+  border-color: var(--border-dark);
+}
+
+/*shadow colors and width*/
+
+.shadow-success {
+  box-shadow: 0 9px var(--border-success);
+}
+
+.shadow-danger {
+  box-shadow: 0 9px var(--border-success);
+}
+
+.shadow-warning {
+  box-shadow: 0 9px var(--border-success);
+}
+
+.shadow-info {
+  box-shadow: 0 9px var(--border-info);
+}
+
+.shadow-light {
+  box-shadow: 0 9px var(--border-light);
+}
+
+.shadow-dark {
+  box-shadow: 0 9px var(--border-dark);
+}

@@ -1,0 +1,48 @@
+@import "colors.css";
+@import "borders.css";
+
+.message {
+    font-size: 12pt;
+    border-radius: var(--bordered);
+    -webkit-border-radius: var(--bordered);
+    -moz-border-radius: var(--bordered);
+    -ms-border-radius: var(--bordered);
+    -o-border-radius: var(--bordered);
+}
+
+.message-success {
+
+    color: rgba(0, 0, 0, 0.466);
+    background-color: #2ecc7078;
+
+}
+
+.message-danger {
+    color: rgba(0, 0, 0, 0.466);
+    background-color: #e74d3c96;
+
+}
+
+.message-warning {
+    color: rgba(0, 0, 0, 0.466);
+    background-color: #f1c40f78;
+
+}
+
+.message-info {
+    font-size: 12pt;
+    color: rgba(0, 0, 0, 0.466);
+    background-color: #5bedfa;
+
+}
+
+.message-light {
+    color: rgba(0, 0, 0, 0.466);
+    background-color: #e5e9ec91;
+
+}
+.message-dark {
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.356);
+
+}
