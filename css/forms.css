@@ -1,0 +1,35 @@
+@import "colors.css";
+@import "borders.css";
+
+.form {
+   display:flex;
+   justify-content: center;
+   font-size:15pt;
+   width: 50%;
+   height: 50%;
+   background-color: whitesmoke;
+   border-radius: var(--bordered);
+   -webkit-border-radius: var(--bordered);
+   -moz-border-radius: var(--bordered);
+   -ms-border-radius: var(--bordered);
+   -o-border-radius: var(--bordered);
+}
+.form-success{
+    background-color: #2ecc7015;
+}
+.form-danger{
+    background-color: #e74d3c31;
+}
+.form-warning{
+    background-color: #f1c40f32;
+}
+.form-info{
+    background-color: #1abc9c26;
+}
+
+.input-light{
+    background-color: #bdc3c759;
+}
+.form-dark{
+    background-color: #34495e25;
+}

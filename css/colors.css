@@ -46,3 +46,64 @@
     --asbestos: #7f8c8d;
 
 }
+.turquoise-text{
+    color:var(--turquoise);
+}
+.esmerald-text{
+    color:var(--esmerald);
+}
+.peterRiver-text{
+    color:var(--peterRiver);
+}
+.amethyst-text{
+    color:var(--amethyst);
+}
+.wetAsphalt-text{
+    color:var(--wetAsphalt);
+}
+.greenSea-text{
+    color:var(--greenSea);
+}
+.nephritis-text{
+    color:var(--nephritis);
+}
+.belizeHole-text{
+    color:var(--belizeHole);
+}
+.whisteria-text{
+    color:var(--whisteria);
+}
+.sunFlower-text{
+    color:var(--sunFlower);
+}
+.carrot-text{
+    color:var(--carrot);
+}
+.alizarin-text{
+    color:var(--alizarin);
+}
+.clouds-text{
+    color:var(--clouds);
+}
+.concrete-text{
+    color:var(--concrete);
+}
+.orange-text{
+    color:var(--orange);
+}
+.punpkin-text{
+    color:var(--punpkin);
+}
+.pomegranate-text{
+    color:var(--pomegranate);
+}
+.silver-text{
+    color:var(--pomegranate);
+}
+.asbestos-text{
+    color:var(--asbestos);
+}
+
+
+
+
