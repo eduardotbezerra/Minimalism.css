@@ -260,8 +260,6 @@
 /*buttons outline*/
 
 
-
-
 .outline-primary {
     background-color: transparent;
     color: black;
@@ -293,7 +291,7 @@
 .outline-danger {
     background-color: transparent;
     color: black;
-    border-color: var(--border-success);
+    border-color: var(--border-danger);
     box-shadow: 0 9px #bb392a;
 
 }
