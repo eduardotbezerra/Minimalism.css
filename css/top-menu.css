@@ -6,29 +6,7 @@
 @import "./media-query/topnav-light.css";
 @import "./media-query/topnav-dark.css";
 
-.topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
 
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
-}
-
-.topnav a.active {
-    background-color: rgba(0, 0, 0, 0.74);
-    color: white;
-}
-
-.topnav .icon {
-    display: none;
-}
 
 /* topnav-success */
 
@@ -48,12 +26,12 @@
 }
 
 .topnav-success a:hover {
-    background-color: #ddd;
+    background-color: rgba(221, 221, 221, 0.267);
     color: black;
 }
 
 .topnav-success a.active {
-    background-color: rgba(0, 0, 0, 0.74);
+    background-color: rgba(8, 240, 39, 0.226);
     color: white;
 }
 
@@ -80,12 +58,12 @@
 }
 
 .topnav-danger a:hover {
-    background-color: #ddd;
+    background-color:rgba(221, 221, 221, 0.267);
     color: black;
 }
 
 .topnav-danger a.active {
-    background-color: rgba(0, 0, 0, 0.74);
+    background-color: rgba(8, 240, 39, 0.226);
     color: white;
 }
 
@@ -111,12 +89,12 @@
 }
 
 .topnav-warning a:hover {
-    background-color: #ddd;
+    background-color: rgba(221, 221, 221, 0.267);
     color: black;
 }
 
 .topnav-warning a.active {
-    background-color: rgba(0, 0, 0, 0.74);
+    background-color: rgba(8, 240, 39, 0.226);
     color: white;
 }
 
@@ -143,12 +121,12 @@
 }
 
 .topnav-info a:hover {
-    background-color: #ddd;
+    background-color: rgba(221, 221, 221, 0.267);
     color: black;
 }
 
 .topnav-info a.active {
-    background-color: rgba(0, 0, 0, 0.74);
+    background-color: rgba(8, 240, 39, 0.226);
     color: white;
 }
 
@@ -175,12 +153,12 @@
 }
 
 .topnav-light a:hover {
-    background-color: #ddd;
+    background-color: rgba(221, 221, 221, 0.267);
     color: black;
 }
 
 .topnav-light a.active {
-    background-color: rgba(0, 0, 0, 0.74);
+    background-color: rgba(8, 240, 39, 0.226);
     color: white;
 }
 
@@ -206,12 +184,12 @@
 }
 
 .topnav-dark a:hover {
-    background-color: #ddd;
+    background-color: rgba(221, 221, 221, 0.267);
     color: black;
 }
 
 .topnav-dark a.active {
-    background-color: rgba(0, 0, 0, 0.74);
+    background-color: rgba(8, 240, 39, 0.226);
     color: white;
 }
 
