@@ -34,3 +34,16 @@ form,
 h3 {
   margin-top: 2em;
 }
+
+form {
+  height: 400px;
+}
+
+.topnav-success,
+.topnav-danger,
+.topnav-warning,
+.topnav-info,
+.topnav-light,
+.topnav-dark {
+  margin-top:1em;
+}

@@ -1,0 +1,28 @@
+@media screen and (max-width: 600px) {
+    .topnav-topnav  a:not(:first-child) {
+        display: none;
+    }
+
+    .topnav-topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav-topnav.responsive {
+        position: relative;
+    }
+
+    .topnav-topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav-topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
