@@ -1,157 +1,154 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+  <head>
+    <title>MinimalismCss</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
-<head>
-  <title>MinimalismCss</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/minimalism.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="js/minimalism.js"></script>
+  </head>
 
-  <link rel="stylesheet" href="css/minimalism.css" />
-  <link rel="stylesheet" href="style.css" />
-  <script src="js/top-menu.js"></script>
-</head>
+  <body>
+    <div class="container" id="container">
+      <h3>buttons</h3>
 
-<body>
-  <div class="container" id="container">
-    <h3>buttons</h3>
+      <section class="buttons">
+        <button class="button button-primary">primary</button>
+        <button class="button button-secondary">secondary</button>
+        <button class="button button-success">success</button>
+        <button class="button button-danger">danger</button>
+        <button class="button button-warning">warning</button>
+        <button class="button button-info">info</button>
+        <button class="button button-light">light</button>
+        <button class="button button-dark">dark</button>
+      </section>
 
-    <section class="buttons">
-      <button class="button button-primary">primary</button>
-      <button class="button button-secondary">secondary</button>
-      <button class="button button-success">success</button>
-      <button class="button button-danger">danger</button>
-      <button class="button button-warning">warning</button>
-      <button class="button button-info">info</button>
-      <button class="button button-light">light</button>
-      <button class="button button-dark">dark</button>
-    </section>
+      <h3>outline buttons</h3>
 
-    <h3>outline buttons</h3>
+      <section class="buttons-outline">
+        <button class="button outline-primary">primary</button>
+        <button class="button outline-secondary">secondary</button>
+        <button class="button outline-success">success</button>
+        <button class="button outline-danger">danger</button>
+        <button class="button outline-warning">warning</button>
+        <button class="button outline-info">info</button>
+        <button class="button outline-light">light</button>
+        <button class="button outline-dark">dark</button>
+      </section>
+      <h3>outline circle buttons</h3>
+      <section class="buttons-outline">
+        <button class="button circle outline-primary">primary</button>
+        <button class="button circle outline-secondary">secondary</button>
+        <button class="button circle outline-success">success</button>
+        <button class="button circle outline-danger">danger</button>
+        <button class="button circle outline-warning">warning</button>
+        <button class="button circle outline-info">info</button>
+        <button class="button circle outline-light">light</button>
+        <button class="button circle outline-dark">dark</button>
+      </section>
 
-    <section class="buttons-outline">
-      <button class="button outline-primary">primary</button>
-      <button class="button outline-secondary">secondary</button>
-      <button class="button outline-success">success</button>
-      <button class="button outline-danger">danger</button>
-      <button class="button outline-warning">warning</button>
-      <button class="button outline-info">info</button>
-      <button class="button outline-light">light</button>
-      <button class="button outline-dark">dark</button>
-    </section>
-    <h3>outline circle buttons</h3>
-    <section class="buttons-outline">
-      <button class="button circle outline-primary">primary</button>
-      <button class="button circle outline-secondary">secondary</button>
-      <button class="button circle outline-success">success</button>
-      <button class="button circle outline-danger">danger</button>
-      <button class="button circle outline-warning">warning</button>
-      <button class="button circle outline-info">info</button>
-      <button class="button circle outline-light">light</button>
-      <button class="button circle outline-dark">dark</button>
-    </section>
+      <h3>inputs</h3>
 
-    <h3>inputs</h3>
+      <section classs="inputs">
+        <input type="text" class="input-success" placeholder="input" />
+        <input type="text" class="input-danger" placeholder="input" />
+        <input type="text" class="input-warning" placeholder="input" />
+        <input type="text" class="input-info" placeholder="input" />
+        <input type="text" class="input-light" placeholder="input" />
+        <input type="text" class="input-dark" placeholder="input" />
+      </section>
 
-    <section classs="inputs">
-      <input type="text" class="input-success" placeholder="input" />
-      <input type="text" class="input-danger" placeholder="input" />
-      <input type="text" class="input-warning" placeholder="input" />
-      <input type="text" class="input-info" placeholder="input" />
-      <input type="text" class="input-light" placeholder="input" />
-      <input type="text" class="input-dark" placeholder="input" />
-    </section>
+      <h3>messages</h3>
 
-    <h3>messages</h3>
+      <section class="messages">
+        <h3 class="message message-success">success!</h3>
+        <h3 class="message message-danger">danger!</h3>
+        <h3 class="message message-warning">warning!</h3>
+        <h3 class="message message-info">info!</h3>
+        <h3 class="message message-light">light!</h3>
+        <h3 class="message message-dark">dark!</h3>
+      </section>
 
-    <section class="messages">
-      <h3 class="message message-success">success!</h3>
-      <h3 class="message message-danger">danger!</h3>
-      <h3 class="message message-warning">warning!</h3>
-      <h3 class="message message-info">info!</h3>
-      <h3 class="message message-light">light!</h3>
-      <h3 class="message message-dark">dark!</h3>
-    </section>
+      <h3>badges</h3>
+      <section>
+        <span class="badge badge-success">10</span>
+        <span class="badge badge-danger">10</span>
+        <span class="badge badge-warning">10</span>
+        <span class="badge badge-info">10</span>
+        <span class="badge badge-light">10</span>
+        <span class="badge badge-dark">10</span>
+      </section>
+      <h3>responsives menus</h3>
+      <section>
+        <div class="topnav-success bordered" id="topnav-success">
+          <a href="#home" class="active">success</a>
+          <a href="#news">News</a>
+          <a href="#contact">Contact</a>
+          <a href="#about">About</a>
+          <a href="javascript:void(0);" class="icon" onclick="nav('success')">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
 
+        <div class="topnav-danger bordered" id="topnav-danger">
+          <a href="#home" class="active">danger</a>
+          <a href="#news">News</a>
+          <a href="#contact">Contact</a>
+          <a href="#about">About</a>
+          <a href="javascript:void(0);" class="icon" onclick="nav('danger')">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
 
-    <h3>badges</h3>
-    <section>
-      <span class="badge badge-success">10</span>
-      <span class="badge badge-danger">10</span>
-      <span class="badge badge-warning">10</span>
-      <span class="badge badge-info">10</span>
-      <span class="badge badge-light">10</span>
-      <span class="badge badge-dark">10</span>
-    </section>
-    <h3>responsives menus</h3>
-    <section>
+        <div class="topnav-warning bordered" id="topnav-warning">
+          <a href="#home" class="active">warning</a>
+          <a href="#news">News</a>
+          <a href="#contact">Contact</a>
+          <a href="#about">About</a>
+          <a href="javascript:void(0);" class="icon" onclick="nav('warning')">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
 
-      <div class="topnav-success bordered" id="topnav-success">
-        <a href="#home" class="active">success</a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
-        <a href="javascript:void(0);" class="icon" onclick="topnav_success()">
-          <i class="fa fa-bars"></i>
-        </a>
-      </div>
+        <div class="topnav-info bordered" id="topnav-info">
+          <a href="#home" class="active">info</a>
+          <a href="#news">News</a>
+          <a href="#contact">Contact</a>
+          <a href="#about">About</a>
+          <a href="javascript:void(0);" class="icon" onclick="nav('info')">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
 
-      <div class="topnav-danger bordered" id="topnav-danger">
-        <a href="#home" class="active">danger</a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
-        <a href="javascript:void(0);" class="icon" onclick="topnav_danger()">
-          <i class="fa fa-bars"></i>
-        </a>
-      </div>
+        <div class="topnav-light bordered" id="topnav-light">
+          <a href="#home" class="active">light</a>
+          <a href="#news">News</a>
+          <a href="#contact">Contact</a>
+          <a href="#about">About</a>
+          <a href="javascript:void(0);" class="icon" onclick="nav('light')">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
 
+        <div class="topnav-dark bordered" id="topnav-dark">
+          <a href="#home" class="active">dark</a>
+          <a href="#news">News</a>
+          <a href="#contact">Contact</a>
+          <a href="#about">About</a>
+          <a href="javascript:void(0);" class="icon" onclick="nav('dark')">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      </section>
+    </div>
 
-      <div class="topnav-warning bordered" id="topnav-warning">
-        <a href="#home" class="active">warning</a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
-        <a href="javascript:void(0);" class="icon" onclick="topnav_warning()">
-          <i class="fa fa-bars"></i>
-        </a>
-      </div>
-
-      <div class="topnav-info bordered" id="topnav-info">
-        <a href="#home" class="active">info</a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
-        <a href="javascript:void(0);" class="icon" onclick="topnav_info()">
-          <i class="fa fa-bars"></i>
-        </a>
-      </div>
-
-
-      <div class="topnav-light bordered" id="topnav-light">
-        <a href="#home" class="active">light</a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
-        <a href="javascript:void(0);" class="icon" onclick="topnav_light()">
-          <i class="fa fa-bars"></i>
-        </a>
-      </div>
-
-      <div class="topnav-dark bordered" id="topnav-dark">
-        <a href="#home" class="active">dark</a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
-        <a href="javascript:void(0);" class="icon" onclick="topnav_dark()">
-          <i class="fa fa-bars"></i>
-        </a>
-      </div>
-
-    </section>
-  </div>
-
-  <!--<section>
+    <!--<section>
     <form action="" class="form form-success"><label for="">success</label></form>
     <form action="" class="form form-danger"><label for="">danger</label></form>
     <form action="" class="form form-warning"><label for="">warning</label></form>
@@ -159,6 +156,5 @@
     <form action="" class="form form-light"><label for="">light</label></form>
     <form action="" class="form form-dark"><label for="">dark</label></form>
   </section> -->
-</body>
-
+  </body>
 </html>

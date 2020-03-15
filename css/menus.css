@@ -1,3 +1,4 @@
+/* topnav media query */
 
 @import "./media-query/topnav-success.css";
 @import "./media-query/topnav-danger.css";
@@ -58,7 +59,7 @@
 }
 
 .topnav-danger a:hover {
-    background-color:rgba(221, 221, 221, 0.267);
+    background-color: rgba(221, 221, 221, 0.267);
     color: black;
 }
 
